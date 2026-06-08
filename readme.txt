@@ -31,3 +31,7 @@ demonstrating github webhook trigger
 
 
 trigering job
+
+
+
+demostrating poll SCM
