@@ -15,6 +15,18 @@ pipeline {
             }
         }
         
+        
+      }
+      post{
+          scuccess{
+              mail bcc: '',
+              body: 'ok china build is compleated thankyou',
+              cc: 'sidharth2222005@gmail.com',
+              from: '',
+              replyTo: '',
+              subject: 'Build scccess',
+              to: 'sidhu2222005@gmail.com'
+          }
       }
     }
     
