@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: collecting the source code from github
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@v4
 
       - name: installing java
         uses: actions/setup-java@v5.5.0
