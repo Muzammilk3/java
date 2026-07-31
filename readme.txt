@@ -30,7 +30,7 @@ demonstrating github webhook trigger
 
 
 
-trigering job
+trigering the job for githubscm pooling
 
 
 
