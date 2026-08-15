@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Cloning java github repository') {
             steps {
-                git 'https://github.com/Sharath-yp25/java.git'
+                git 'https://github.com/Muzammilk3/java.git'
             }
         }
         
