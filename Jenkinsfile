@@ -15,16 +15,4 @@ pipeline {
             }
         }
         
-         stage('Cloning maven github repository') {
-            steps {
-                git 'https://github.com/Sharath-yp25/mavenproject.git'
-            }
-        }
-        
-         stage('Generating package for maven') {
-            steps {
-              bat 'mvn package'
-            }
-        }
-    }
-}
+
