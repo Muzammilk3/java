@@ -10,7 +10,7 @@ pipeline {
 
         stage('Compiling and executing java project') {
             steps {
-                sh '''javac Test.java
+                bat '''javac Test.java
                 java Test'''
             }
         }
