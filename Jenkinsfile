@@ -34,7 +34,7 @@ pipeline {
                 from: '',
                 replyTo: '',
                 subject: 'Build failure',
-                to: 'amuzammilahmedk3@gmail.com'
+                to: 'muzammilahmedk3@gmail.com'
         }
     }
 }
